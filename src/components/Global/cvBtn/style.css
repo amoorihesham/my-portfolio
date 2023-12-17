@@ -1,0 +1,14 @@
+.cvBtn {
+  max-width: 750px;
+  margin: auto;
+  text-align: left;
+}
+.cvBTN-btn {
+  background-color: var(--darkTeal);
+  color: white;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.cvBTN-btn:hover {
+  background-color: var(--greenishLemonada);
+}

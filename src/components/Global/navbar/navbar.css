@@ -1,0 +1,24 @@
+.navbar {
+  background-color: var(--altColor);
+}
+.navbar-brand {
+  color: white;
+  transition: 0.5s;
+}
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: var(--paleYellow);
+}
+.nav-link {
+  color: white;
+  transition: 0.5s;
+  padding: 8px 16px;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--paleYellow);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--paleYellow);
+}

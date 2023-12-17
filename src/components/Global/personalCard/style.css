@@ -1,0 +1,23 @@
+.personal_card_container {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--paleYellow);
+}
+.info p {
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--greenishLemonada);
+  user-select: none;
+}
+.info p span {
+  color: white;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.tags span {
+  display: inline-flex;
+  margin: 0 5px 0 0;
+  background-color: var(--darkTeal);
+  padding: 3px 5px;
+  border-radius: 4px;
+}

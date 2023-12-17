@@ -1,0 +1,11 @@
+.homepage {
+  min-height: calc(100vh - 90px);
+  padding: var(--secpadding) 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social_container_home{
+  max-width: 750px;
+  margin: 25px auto 0 auto;
+}

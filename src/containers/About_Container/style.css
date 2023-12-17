@@ -1,0 +1,4 @@
+.aboutpage {
+  min-height: calc(100vh - 90px);
+  padding: var(--secpadding);
+}

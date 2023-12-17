@@ -1,0 +1,23 @@
+.filter__list {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0 0 10px 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 300;
+  gap: 15px;
+  border-bottom: 1px solid var(--greenishLemonada);
+}
+.filter__list li {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.filter__list li.active {
+  color: var(--paleYellow);
+}
+.filter__list li:hover {
+  color: var(--paleYellow);
+}

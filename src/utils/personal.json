@@ -1,0 +1,27 @@
+{
+  "fname": "Amr hesham abdelmonam othman",
+  "nationality": "Egyptian",
+  "milatry": "Finished",
+  "martial": "Single",
+  "job": "Health Care Privder",
+  "hoppies": ["Programming", "Design", "Football", "Reading"],
+  "skills": [
+    "html/html5",
+    "css/css3",
+    "javascript",
+    "react js/next js",
+    "redux toolkit",
+    "bootstrap",
+    "tailwind css",
+    "jquery",
+    "rapid api"
+  ],
+  "personalAbilities": [
+    "passion to learn",
+    "team player",
+    "decision making",
+    "good speaker",
+    "pressure adabtion"
+  ],
+  "languages":["arabic","english"]
+}

@@ -1,0 +1,155 @@
+.card__project {
+  position: relative;
+  overflow: hidden;
+  padding: 15px;
+  z-index: 999;
+  border-radius: 6px;
+  transition: 0.5s;
+  background-color: #2f4159;
+  -webkit-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.5);
+}
+.card__project::after,
+.card__project::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  transition: 0.5;
+  z-index: -1;
+}
+.card__project:hover {
+  transform: translateY(-5px);
+  scale: 1.01;
+}
+.card__project::after {
+  background-color: #92d57636;
+  left: 0;
+}
+.card__project::before {
+  background-color: #35ab8036;
+  right: 0;
+}
+.card__project:hover::after {
+  animation: Fill-in-left 0.4s ease-in-out forwards;
+}
+.card__project:hover::before {
+  animation: Fill-in-right 0.4s ease-in-out forwards;
+  /* animation-delay: 0.5s; */
+}
+.card__project img {
+  margin: 0 0 15px 0;
+  border-radius: 6px;
+}
+
+.card__info {
+  margin: 0 0 15px 0;
+}
+.tool {
+  font-size: 14px;
+  font-weight: 300;
+  background-color: var(--darkTeal);
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+.btn-live {
+  color: white;
+  font-weight: 400;
+  transition: 0.5s;
+  background-image: linear-gradient(
+    to left,
+    #f6b4d1,
+    #e2a8c9,
+    #ce9dc1,
+    #b992b7,
+    #a587ad,
+    #947ea3,
+    #837499,
+    #726b8e,
+    #606081,
+    #4f5674,
+    #3e4b67,
+    #2f4159
+  );
+}
+.btn-live:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #f6b4d1,
+    #e2a8c9,
+    #ce9dc1,
+    #b992b7,
+    #a587ad,
+    #947ea3,
+    #837499,
+    #726b8e,
+    #606081,
+    #4f5674,
+    #3e4b67,
+    #2f4159
+  );
+  color: white;
+}
+.btn-github {
+  color: white;
+  font-weight: 400;
+  transition: 0.5s;
+  background-image: linear-gradient(
+    to left,
+    #8b799e,
+    #747ba4,
+    #577da5,
+    #367f9f,
+    #0e7f92,
+    #08798a,
+    #037482,
+    #006e7a,
+    #106376,
+    #1f576f,
+    #294c65,
+    #2f4159
+  );
+}
+.btn-github:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #8b799e,
+    #747ba4,
+    #577da5,
+    #367f9f,
+    #0e7f92,
+    #08798a,
+    #037482,
+    #006e7a,
+    #106376,
+    #1f576f,
+    #294c65,
+    #2f4159
+  );
+  color: white;
+}
+
+@keyframes Fill-in-left {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+
+  100% {
+    width: 50%;
+    left: 0;
+  }
+}
+@keyframes Fill-in-right {
+  0% {
+    width: 0%;
+    right: 0;
+  }
+
+  100% {
+    width: 50%;
+    right: 0;
+  }
+}
