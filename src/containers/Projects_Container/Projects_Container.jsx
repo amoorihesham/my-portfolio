@@ -9,7 +9,7 @@ function ProjectsContainer() {
       <div className="container">
         <SecHeading
           title="Projects"
-          para="This some of my latest and high quality projects i`ve worked on."
+          para="Dive into the Projects Playground—where ideas come to life."
         />
         <CategoryProjects />
         <ProjectsList />

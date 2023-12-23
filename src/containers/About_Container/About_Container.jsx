@@ -2,6 +2,7 @@ import "./style.css";
 import SocialCard from "@/components/Global/socialCard/SocialCard";
 import SecHeading from "@/components/Global/secHeading/SecHeading";
 import PersonalCard from "@/components/Global/personalCard/PersonalCard";
+import EduList from "@/components/About_Page/EduList/EduList";
 
 function AboutContainer() {
   return (
@@ -9,10 +10,11 @@ function AboutContainer() {
       <div className="container">
         <SecHeading
           title="About-me"
-          para="simple preif about me and my life, Hobbies, Happites."
+          para="Step into the About Page—where my journey meets pixels. Let's illuminate the story together."
         />
         <SocialCard />
         <PersonalCard />
+        <EduList />
       </div>
     </section>
   );

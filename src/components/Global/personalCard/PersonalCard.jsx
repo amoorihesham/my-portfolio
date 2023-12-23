@@ -7,7 +7,6 @@ import { useMediaQuery } from "react-responsive";
 
 function PersonalCard() {
   const mobile = useMediaQuery({ query: "(max-width:768px)" });
-  console.log(mobile);
   return (
     <section className="personal_card_container text-white">
       <h4>Personal Information:</h4>
@@ -23,13 +22,11 @@ function PersonalCard() {
               fontWeight: "normal",
               scale: 1,
               fontSize: "16px",
-              paddingBottom: 0,
             }}
             whileHover={{
               fontWeight: mobile ? "normal" : "bold",
               scale: mobile ? 1 : 1.01,
               fontSize: mobile ? "16px" : "16px",
-              paddingBottom: mobile ? 0 : 10,
             }}
           >
             Name: <span>{info.fname}</span>
@@ -39,13 +36,11 @@ function PersonalCard() {
               fontWeight: "normal",
               scale: 1,
               fontSize: "16px",
-              paddingBottom: 0,
             }}
             whileHover={{
               fontWeight: mobile ? "normal" : "bold",
               scale: mobile ? 1 : 1.01,
               fontSize: mobile ? "16px" : "16px",
-              paddingBottom: mobile ? 0 : 10,
             }}
           >
             Nationality: <span>{info.nationality}</span>
@@ -55,13 +50,11 @@ function PersonalCard() {
               fontWeight: "normal",
               scale: 1,
               fontSize: "16px",
-              paddingBottom: 0,
             }}
             whileHover={{
               fontWeight: mobile ? "normal" : "bold",
               scale: mobile ? 1 : 1.01,
               fontSize: mobile ? "16px" : "16px",
-              paddingBottom: mobile ? 0 : 10,
             }}
           >
             Milatry Status: <span>{info.milatry}</span>
@@ -71,13 +64,11 @@ function PersonalCard() {
               fontWeight: "normal",
               scale: 1,
               fontSize: "16px",
-              paddingBottom: 0,
             }}
             whileHover={{
               fontWeight: mobile ? "normal" : "bold",
               scale: mobile ? 1 : 1.01,
               fontSize: mobile ? "16px" : "16px",
-              paddingBottom: mobile ? 0 : 10,
             }}
           >
             Martial Status: <span>{info.martial}</span>
@@ -87,13 +78,11 @@ function PersonalCard() {
               fontWeight: "normal",
               scale: 1,
               fontSize: "16px",
-              paddingBottom: 0,
             }}
             whileHover={{
               fontWeight: mobile ? "normal" : "bold",
               scale: mobile ? 1 : 1.01,
               fontSize: mobile ? "16px" : "16px",
-              paddingBottom: mobile ? 0 : 10,
             }}
             className="tags"
           >
@@ -107,13 +96,11 @@ function PersonalCard() {
               fontWeight: "normal",
               scale: 1,
               fontSize: "16px",
-              paddingBottom: 0,
             }}
             whileHover={{
               fontWeight: mobile ? "normal" : "bold",
               scale: mobile ? 1 : 1.01,
               fontSize: mobile ? "16px" : "16px",
-              paddingBottom: mobile ? 0 : 10,
             }}
           >
             Current Job: <span>{info.job}</span>
@@ -123,13 +110,11 @@ function PersonalCard() {
               fontWeight: "normal",
               scale: 1,
               fontSize: "16px",
-              paddingBottom: 0,
             }}
             whileHover={{
               fontWeight: mobile ? "normal" : "bold",
               scale: mobile ? 1 : 1.01,
               fontSize: mobile ? "16px" : "16px",
-              paddingBottom: mobile ? 0 : 10,
             }}
             className="tags"
           >
@@ -143,13 +128,11 @@ function PersonalCard() {
               fontWeight: "normal",
               scale: 1,
               fontSize: "16px",
-              paddingBottom: 0,
             }}
             whileHover={{
               fontWeight: mobile ? "normal" : "bold",
               scale: mobile ? 1 : 1.01,
               fontSize: mobile ? "16px" : "16px",
-              paddingBottom: mobile ? 0 : 10,
             }}
             className="tags"
           >
@@ -163,13 +146,11 @@ function PersonalCard() {
               fontWeight: "normal",
               scale: 1,
               fontSize: "16px",
-              paddingBottom: 0,
             }}
             whileHover={{
               fontWeight: mobile ? "normal" : "bold",
               scale: mobile ? 1 : 1.01,
               fontSize: mobile ? "16px" : "16px",
-              paddingBottom: mobile ? 0 : 10,
             }}
             className="tags"
           >
