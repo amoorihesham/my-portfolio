@@ -5,3 +5,8 @@
   color: white;
   line-height: 32px;
 }
+@media (max-width: 768px) {
+  .order-sm {
+    order: -1;
+  }
+}

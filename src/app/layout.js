@@ -4,6 +4,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "./globals.css";
 import Navbar from "@/components/Global/navbar/Navbar";
+import NavMobile from "@/components/Global/NavMobile/NavMobile";
 
 const inter = Inter({ subsets: ["latin"] });
 config.autoAddCss = false;
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} mianBg__gradient`}>
         <Navbar />
+        <NavMobile />
         {children}
       </body>
     </html>

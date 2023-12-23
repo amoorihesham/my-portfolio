@@ -5,8 +5,8 @@ function ContactForm() {
     e.preventDefault();
   };
   return (
-    <div className="contact-form mt-5">
-      <div className="row align-items-center">
+    <div className="contact-form">
+      <div className="row align-items-center g-3">
         <div className="col-md-6">
           <form onSubmit={handleSubmit}>
             <input
@@ -36,12 +36,12 @@ function ContactForm() {
               className="form-control"
               required
             ></textarea>
-            <button type="submit" className="btn btn-success w-25 mt-3">
+            <button type="submit" className="btn btn-success mt-3">
               Send Message
             </button>
           </form>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 order-sm">
           <div className="quote">
             <p className="qp">
               Empower your thoughts to take flight – drop a message in the wings

@@ -5,7 +5,14 @@
   align-items: center;
   justify-content: center;
 }
-.social_container_home{
+.social_container_home {
   max-width: 750px;
   margin: 25px auto 0 auto;
+}
+
+@media (max-width: 768px) {
+  .homepage {
+    padding: var(--secpaddingmobile) 0;
+    height: 100vh;
+  }
 }

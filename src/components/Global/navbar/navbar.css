@@ -22,3 +22,8 @@
 .navbar-nav .nav-link.show {
   color: var(--paleYellow);
 }
+@media (max-width: 991px) {
+  .navbar {
+    display: none;
+  }
+}

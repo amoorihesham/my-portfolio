@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+
 import "./navbar.css";
 import Link from "next/link";
 import { LazyMotion, domAnimation, m } from "framer-motion";

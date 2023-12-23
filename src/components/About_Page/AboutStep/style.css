@@ -1,6 +1,7 @@
 .edu-card {
   position: relative;
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
+  padding: 10px 10px;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -36,21 +37,20 @@
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 1px;
-  color: white;
   margin: 0;
   padding: 0;
+  color: white;
   transition: 0.5s;
 }
 .edu-card:hover h5 {
   font-weight: 700;
-  padding-left: 10px;
 }
 .card-title-edu p {
   font-size: 18px;
   font-weight: 200;
   line-height: 42px;
-  opacity: 0.7;
   color: var(--paleYellow);
+  opacity: 0.7;
   transition: 0.5s;
 }
 .edu-card:hover p {
@@ -60,7 +60,14 @@
 .card-body-edu p {
   font-size: 17px;
   font-weight: 300;
-  margin: 15px 0;
-  padding: 0 10px;
   color: white;
+  line-height: 24px;
+}
+@media (max-width:768px){
+  .card-body-edu p{
+    font-size: 14px;
+  }
+  .card-title-edu p{
+    font-size: 14px;
+  }
 }

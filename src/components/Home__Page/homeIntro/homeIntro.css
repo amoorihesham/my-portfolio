@@ -4,6 +4,7 @@
 .home__intro h1 {
   max-width: 750px;
   margin-inline: auto;
+  margin-bottom: 25px;
   text-align: left;
   font-size: var(--mainHeadingSize);
   font-weight: 700;
@@ -35,4 +36,32 @@
   text-transform: uppercase;
   font-weight: 500;
   color: var(--greenishLemonada);
+}
+
+@media (max-width: 768px) {
+  .home__intro h1 {
+    font-size: 42px;
+  }
+}
+@media (max-width: 490px) {
+  .home__intro h1 {
+    font-size: 42px;
+    margin: 0 0 10px 0;
+  }
+  .home__intro p:nth-last-of-type(1) {
+    font-size: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .home__intro h1 {
+    font-size: 27px;
+    margin: 0 0 10px 0;
+  }
+  .home__intro p {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+  }
+  .home__intro p:nth-last-of-type(1) {
+    font-size: 16px;
+  }
 }

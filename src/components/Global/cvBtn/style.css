@@ -12,3 +12,8 @@
 .cvBTN-btn:hover {
   background-color: var(--greenishLemonada);
 }
+/* @media (max-width: 360px) {
+  .cvBtn {
+    display: none;
+  }
+} */
