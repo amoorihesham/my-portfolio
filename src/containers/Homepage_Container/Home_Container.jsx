@@ -1,10 +1,10 @@
 "use client";
-import { motion } from "framer-motion";
-import "./style.css";
 import HomeIntro from "@/components/Home__Page/homeIntro/HomeIntro";
 import SocialCard from "@/components/Global/socialCard/SocialCard";
 import CVBtn from "@/components/Global/cvBtn/CVBtn";
+import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
+import "./style.css";
 
 function HomeContainer() {
   const mobile = useMediaQuery({ query: "(max-width:768px)" });

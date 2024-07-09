@@ -1,20 +1,21 @@
 [
-  {
-    "id": 1,
-    "title": "Formal Study",
-    "description": "Embarking on my nursing journey at Benha University in 2017, I immersed myself in the world of healthcare, driven by a passion to make a difference. Over the four transformative years, I honed my skills, gained profound medical knowledge, and cultivated a deep sense of empathy. Graduating in 2021, I proudly carry the badge of a Benha University alumna. Now, I am dedicated to applying my expertise and compassion in a meaningful way as I contribute to the healthcare field, working at the institution where my journey began. Each day, I strive to provide quality care, making a positive impact on the lives of those I serve.",
-    "date": "2017:2021"
-  },
-  {
-    "id": 2,
-    "title": "Proggraming Passion",
-    "description": "My love affair with programming ignited during my secondary school days, where I discovered the enchanting world of code as a side pursuit to my formal studies. What started as a curious exploration soon blossomed into a full-fledged passion. The thrill of solving problems and bringing ideas to life through lines of code became my daily inspiration. As I delved deeper into the intricate dance of algorithms and the artistry of syntax, it became clear that my heart belonged to the realm of programming. After completing my studies, I made a pivotal decision to pivot my career path, steering towards the vibrant landscape of frontend development. Now, armed with a fervent dedication to crafting seamless user experiences, I embark on a journey to turn pixels into poetry and transform my programming passion into a purposeful profession.",
-    "date": "Sec School:Now"
-  },
-  {
-    "id": 3,
-    "title": "Frontend (Route Academy)",
-    "description": "Working in something you truly love, beyond your formal studies.Enrolling in and completing the Frontend diploma at Route Academy in the heart of Egypt has been a transformative experience. This specialized IT institution, situated centrally, provided me with an immersive and culturally rich learning environment. The program not only equipped me with essential frontend development skills but also fostered a deep understanding of the local and regional tech landscape. Collaborating with fellow students from diverse backgrounds enhanced my ability to work in multicultural teams—a valuable asset in the globalized IT industry. Route Academy's commitment to excellence in IT education, combined with Egypt's vibrant atmosphere, created a unique and enriching educational journey that has significantly shaped my proficiency and adaptability in the dynamic field of frontend development.",
-    "date": "05/2023:10/2023"
-  }
+	{
+		"id": 3,
+		"title": "Frontend Development Diploma",
+		"place": "Route Academy",
+		"location": "Cairo",
+		"description": "Working in something you truly love, beyond your formal studies.Enrolling in and completing the Frontend diploma at Route Academy in the heart of Egypt has been a transformative experience. This specialized IT institution, situated centrally, provided me with an immersive and culturally rich learning environment. The program not only equipped me with essential frontend development skills but also fostered a deep understanding of the local and regional tech landscape. Collaborating with fellow students from diverse backgrounds enhanced my ability to work in multicultural teams—a valuable asset in the globalized IT industry. Route Academy's commitment to excellence in IT education, combined with Egypt's vibrant atmosphere, created a unique and enriching educational journey that has significantly shaped my proficiency and adaptability in the dynamic field of frontend development.",
+		"startDate": "May 2023",
+		"endDate": "Oct 2023"
+	},
+
+	{
+		"id": 1,
+		"title": "Formal Study",
+		"place": "Benha University",
+		"location": "Qualibeya",
+		"description": "Embarking on my nursing journey at Benha University in 2017, I immersed myself in the world of healthcare, driven by a passion to make a difference. Over the four transformative years, I honed my skills, gained profound medical knowledge, and cultivated a deep sense of empathy. Graduating in 2021, I proudly carry the badge of a Benha University alumna. Now, I am dedicated to applying my expertise and compassion in a meaningful way as I contribute to the healthcare field, working at the institution where my journey began. Each day, I strive to provide quality care, making a positive impact on the lives of those I serve.",
+		"startDate": "Aug 2017",
+		"endDate": "June 2019"
+	}
 ]

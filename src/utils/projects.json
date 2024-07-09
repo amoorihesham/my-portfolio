@@ -1,47 +1,43 @@
 [
-  {
-    "id": 1,
-    "title": "FreeshCart App",
-    "description": "React Basic E-commerce App Have all functionality should be implemented.",
-    "thumbnail": "/assets/freeshCart_thumbnail.jpg",
-    "github": "https://github.com/amoorihesham/React-Ecommerce",
-    "livedemo": "https://react-ecommerce-delta-woad.vercel.app",
-    "tools": ["React js", "Context API"]
-  },
-  {
-    "id": 2,
-    "title": "Yummy App",
-    "description": "A website for food ingredients, search by food name from whole world popular dishes. get all",
-    "thumbnail": "/assets/yummy_Thumbnail.jpg",
-    "github": "https://github.com/amoorihesham/Yummy-App",
-    "livedemo": "https://yummy-app-nu.vercel.app/",
-    "tools": ["React js", "Redux Toolkit"]
-  },
-  {
-    "id": 3,
-    "title": "Personal Budget App",
-    "description": "it’s an application for managing personal budgets.for managing personal budgets",
-    "thumbnail": "/assets/fitness_Thumbnail.jpg",
-    "github": "https://github.com/amoorihesham/budgetApp",
-    "livedemo": "https://budget-app-7k2t.vercel.app/",
-    "tools": ["React js", "LocalStorage"]
-  },
-  {
-    "id": 4,
-    "title": "Fitness App",
-    "description": "it’s an application for the fitness community where you can find the latest fitness blogs.",
-    "thumbnail": "/assets/fitness_Thumbnail.jpg",
-    "github": "https://github.com/amoorihesham/Fitness-App",
-    "livedemo": "https://nextfitness-app.vercel.app/",
-    "tools": ["React js", "Next js", "Rapid Api"]
-  },
-  {
-    "id": 5,
-    "title": "Playzone App",
-    "description": "it’s a gaming web app to get all free 2-play games, the latest news, and hot offers.",
-    "thumbnail": "/assets/playzone_Thumbnail.jpg",
-    "github": "https://github.com/amoorihesham/Playzone",
-    "livedemo": "https://playzone-one.vercel.app/",
-    "tools": ["React js", "Redux Toolkit", "Rapid Api"]
-  }
+	{
+		"id": 1,
+		"title": "FreeshCart App",
+		"role": "Frontend Developer",
+		"finishDate": "Oct 2023",
+		"mainTech": "React.js",
+		"thumbnail": "/assets/freeshCart_thumbnail.jpg",
+		"github": "https://github.com/amoorihesham/React-Ecommerce",
+		"livedemo": "https://react-ecommerce-delta-woad.vercel.app"
+	},
+	{
+		"id": 2,
+		"title": "Yummy App",
+		"role": "Frontend Developer",
+		"finishDate": "Sep 2023",
+		"thumbnail": "/assets/yummy_Thumbnail.jpg",
+		"github": "https://github.com/amoorihesham/Yummy-App",
+		"livedemo": "https://yummy-app-nu.vercel.app/",
+		"mainTech": "React.js"
+	},
+
+	{
+		"id": 4,
+		"title": "Fitness App",
+		"role": "Frontend Developer",
+		"finishDate": "Dec 2023",
+		"mainTech": "Next.js",
+		"thumbnail": "/assets/fitness_Thumbnail.jpg",
+		"github": "https://github.com/amoorihesham/Fitness-App",
+		"livedemo": "https://nextfitness-app.vercel.app/"
+	},
+	{
+		"id": 5,
+		"title": "Playzone App",
+		"role": "Frontend Developer",
+		"finishDate": "Feb 2024",
+		"mainTech": "React.js",
+		"thumbnail": "/assets/playzone_Thumbnail.jpg",
+		"github": "https://github.com/amoorihesham/Playzone",
+		"livedemo": "https://playzone-one.vercel.app/"
+	}
 ]

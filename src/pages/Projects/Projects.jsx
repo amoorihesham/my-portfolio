@@ -1,7 +1,7 @@
-import ProjectsContainer from "@/containers/Projects_Container/Projects_Container";
+import ProjectsContainer from '@/containers/Projects_Container/Projects_Container';
 
 function Projects() {
-  return <ProjectsContainer />;
+	return <ProjectsContainer />;
 }
 
 export default Projects;

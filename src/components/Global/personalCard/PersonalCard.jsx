@@ -118,7 +118,7 @@ function PersonalCard() {
             }}
             className="tags"
           >
-            Hobbies:{" "}
+            Hobbies:
             {info.hoppies.map((hobby) => (
               <span key={hobby}>{hobby}</span>
             ))}
@@ -136,7 +136,7 @@ function PersonalCard() {
             }}
             className="tags"
           >
-            Tech-Skills:{" "}
+            Tech-Skills:
             {info.skills.map((skil) => (
               <span key={skil}>{skil}</span>
             ))}
@@ -154,7 +154,7 @@ function PersonalCard() {
             }}
             className="tags"
           >
-            Non-Tech:{" "}
+            Soft-Tech:
             {info.personalAbilities.map((ability) => (
               <span key={ability}>{ability}</span>
             ))}
